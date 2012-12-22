@@ -1,0 +1,6 @@
+.buildpath
+.project
+.settings
+data/logs
+data/smarty_cache
+data/smarty_compile
