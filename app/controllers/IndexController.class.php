@@ -1,7 +1,7 @@
 <?php
 class IndexController extends PController
 {
-    public function index()
+    public function index($name = 'Patrick')
     {
         
 //         $testList = testModel::getInstance()->getTestList();
@@ -10,7 +10,7 @@ class IndexController extends PController
 //         $yyTestList = testModel::getInstance()->getTestListByName('yy');
 //         print_r($yyTestList);
 
-        $this->assign('message', 'Hello Patrick!');
+        $this->assign('message', "Hello {$name}!");
         
         $this->display();
     }
